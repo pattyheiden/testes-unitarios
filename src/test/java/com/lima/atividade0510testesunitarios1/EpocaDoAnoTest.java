@@ -51,6 +51,7 @@ public class EpocaDoAnoTest {
                 .hasMessage("Estação inválida! Informe um número entre 1 e 4.");
     }
 
+    @Test
     void retornaEstacaoInvalidaMenorQueUm() {
         int estacao = 0;
         Assertions.assertThatThrownBy(
